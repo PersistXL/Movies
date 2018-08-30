@@ -1,0 +1,38 @@
+json-server创建mock数据
+
+1.先创建文件夹 api （服务端） 与 client （前端）
+
+2. 制作mock数据：
+   在api文件夹新建db.json文件，并使用json格式放入我们的初始电影数据
+
+3.在api文件夹下新建package.json文件
+
+4.然后到浏览器访问：localhost:3000/movies,看到数据说明mock数据构建成功
+
+发送get请求获取数据并渲染在页面上
+
+1.在客户端client文件夹安装： npm i axios --save
+
+2.在index.html页面引入axios与自定义的main.js
+
+3.我们就可以在main.js请求数据并处理了
+
+4.我们在client目录增加css文件夹，新增index.css文件
+
+5.在html里增加的内容，然后在main.js里做请求数据，拼接字符串的操作，另外改变页面内容改变节点的innerHTML就可以
+
+6.然后，启动我们的mock数据服务，再打开页面，我们从服务端获取数据
+
+发送post请求新增一条数据
+
+1.增加addMovie.html文件，我在这里就简单点，随便写个样式
+
+2.用ajax改进功能
+
+删除数据与改善代码结构
+
+1.我们在home页面的每个电影海报右上角加上一个用于删除的小叉叉
+
+2.在home.js里稍微修改一下样式
+
+3.实现我们的删除逻辑

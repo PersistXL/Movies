@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eee;
+}
+#container{
+    background: #fff;
+    margin: 40px auto;
+    width: 700px;
+    height: 300px;
+    border: solid 1px #ddd;
+
+}
+.formItem{
+padding: 10px 0 0 40px;
+}
+.formItem label{
+    color:salmon;
+    font-weight: bold;
+}
+.formItem input{
+    width: 300px;
+    height: 30px;
+    line-height: 20px;
+    border: solid 1px salmon;
+    border-radius: 2px;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+}
+button{
+    margin-right: 40px;
+    width: 80px;
+    height: 30px;
+    background: #fff;
+    border: solid 2px salmon;
+    border-radius: 2px;
+    font-size: 20px;
+    color: salmon;
+}
+button :hover{
+    background: salmon;
+    color: blanchedalmond;
+}

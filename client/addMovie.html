@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新增电影</title>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./addMovie.css">
+    <script src="./addMovie.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <form id="addMovie" action=" " method=" ">
+            <div class="formItem">
+                <label for=" ">影名：</label>
+                <input type="text" name="title" required>
+            </div>
+            <div class="formItem">
+                <label for=" ">海报：</label>
+                <input type="text" name="post" required>
+            </div>
+            <div class="formItem">
+                <label for=" ">导演：</label>
+                <input type="text" name="director" required>
+            </div>
+            <div class="formItem">
+                <label for=" ">评分：</label>
+                <input type="number" name="score" required>
+            </div>
+            <div class="formItem">
+                <label for=" ">日期：</label>
+                <input type="date" name="date" required>
+            </div>
+            <div class="formItem">
+                <button type="reset">清空</button>
+                <button id="addButton" type="submit">提交</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+#moviesRow{
+    background: #fff;
+    margin: 40px  auto;
+    width: 700px;
+    height: 250px;
+    border:solid 1px #ddd;
+
+}
+.movieBox{
+ text-align: center;
+ margin: 0 10px;
+ width: 150px;
+ list-style-type: none;
+ float: left;
+ height: 100%;
+}
+.mPost img{
+    margin-top: 10px;
+    width: 128px;
+   
+}
+.mTitle{
+    text-align: center;
+}
+.mScore{
+    font-size: 14px;
+    color: #ee9999;
+}
+.delMovie{
+    position: absolute; 
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 55px;
+    cursor:pointer;
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 10px;
+    color: #FFF;
+    background: skyblue;
+    border: solid 1px skyblue;
+}
+.delMovie:hover{
+    color: skyblue;
+    background: #fff;
+    
+}
